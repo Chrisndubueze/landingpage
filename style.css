@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: gray;
+    padding: 14px 17px;
+    
+
+}
+.navbar__list{
+    display: flex;
+    padding: 0;
+    margin-block: 0;
+    margin-left: auto;
+}
+.navbar__item{
+    list-style-type: none;
+}
+.navbar__link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.navbar__brand{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar__item:not(:last-child){
+    margin-right: 10px;
+}
